@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://d15saw7ryei8e"]
+
+[ext_resource type="Texture2D" uid="uid://ftxouh5ur4ru" path="res://Assets/Letters/X.png" id="1_pcfn7"]
+[ext_resource type="Script" uid="uid://cbe012xjowca1" path="res://Scripts/letter_input.gd" id="2_w7ct0"]
+
+[node name="Node2D" type="TextureRect" unique_id=1669310019]
+custom_minimum_size = Vector2(32, 32)
+texture = ExtResource("1_pcfn7")
+expand_mode = 3
+stretch_mode = 5
+script = ExtResource("2_w7ct0")

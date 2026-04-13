@@ -1,0 +1,14 @@
+[
+  {
+	"question": "Apa ibukota Jawa Timur?",
+	"answer": "Surabaya",
+	"category": "Geografi",
+	"difficulty": 1
+  },
+  {
+	"question": "Tahun berapa Indonesia merdeka?",
+	"answer": "1945",
+	"category": "Sejarah",
+	"difficulty": 1
+  }
+]
