@@ -1,0 +1,26 @@
+[
+	{
+		"question": "Apa nama makanan Jepang berbahan nasi dan ikan mentah?",
+		"answer": "Sushi",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": [1,1,1,1,0]
+	},
+	{
+		"question": "Apa nama makanan Jepang berbahan nasi dan ikan mentah2?",
+		"answer": "Sushi",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": [1,0,0,0,0]
+	},
+	{
+		"question": "Apa nama makanan Jepang berbahan nasi dan ikan mentah3?",
+		"answer": "Sushi",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": [1,1,0,0,0]
+	}
+]

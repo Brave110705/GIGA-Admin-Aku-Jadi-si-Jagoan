@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://oyenkb3b3kj0"]
+
+[ext_resource type="Script" uid="uid://cs0m5ig3bli86" path="res://Scenes/treasure_scene.gd" id="1_8021x"]
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="2_maicn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_js8s2"]
+
+[node name="Node2D" type="Node2D" unique_id=1614951624]
+script = ExtResource("1_8021x")
+
+[node name="Panel" type="Panel" parent="." unique_id=1363133218]
+offset_right = 960.0
+offset_bottom = 540.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_js8s2")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel" unique_id=1472065478]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -93.0
+offset_top = -22.0
+offset_right = 93.0
+offset_bottom = 18.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+text = "Chest"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel" unique_id=1364294531]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -32.0
+offset_top = 12.0
+offset_right = 32.0
+offset_bottom = 76.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("2_maicn")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="TextureButton" type="TextureButton" parent="Panel" unique_id=1357302999]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -47.0
+offset_top = -3.0
+offset_right = 47.0
+offset_bottom = 87.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+
+[node name="Center" type="Control" parent="Panel" unique_id=2101387220]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+
+[connection signal="pressed" from="Panel/TextureButton" to="." method="_on_texture_button_pressed"]

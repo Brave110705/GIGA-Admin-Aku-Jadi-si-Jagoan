@@ -1,0 +1,171 @@
+[gd_scene format=3 uid="uid://bxafgrcy37d61"]
+
+[ext_resource type="Script" uid="uid://djgmyy1s7law" path="res://Scenes/player_ui.gd" id="1_qipxh"]
+[ext_resource type="Texture2D" uid="uid://couqmn1fgka8v" path="res://Assets/top_hud.png" id="2_dxtgh"]
+[ext_resource type="Texture2D" uid="uid://118klmrp21as" path="res://Assets/Map_icon.png" id="2_qipxh"]
+[ext_resource type="Texture2D" uid="uid://c84gx42qoxmyc" path="res://Assets/book_icon.png" id="4_6jssq"]
+[ext_resource type="Texture2D" uid="uid://vikgwjrqak3i" path="res://Assets/hp_icon.png" id="4_46yqn"]
+[ext_resource type="Texture2D" uid="uid://55m1n3drtlik" path="res://Assets/Gold_icon.png" id="5_vi3dy"]
+[ext_resource type="Texture2D" uid="uid://do8bn4xtl4h88" path="res://Assets/item_slot.png" id="6_uflt7"]
+[ext_resource type="Texture2D" uid="uid://beqjcyc22ykdg" path="res://Assets/item_empty.png" id="7_6jssq"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1311867244]
+script = ExtResource("1_qipxh")
+
+[node name="TopHud" type="TextureRect" parent="." unique_id=1797197001]
+z_index = 5
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -481.0
+offset_right = 481.0
+offset_bottom = 32.0
+grow_horizontal = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("2_dxtgh")
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1379152482]
+z_index = 5
+custom_minimum_size = Vector2(48, 48)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 453.0
+offset_top = -267.0
+offset_right = 501.0
+offset_bottom = -219.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+texture_normal = ExtResource("2_qipxh")
+stretch_mode = 4
+
+[node name="TextureButton2" type="TextureButton" parent="." unique_id=626999557]
+z_index = 5
+custom_minimum_size = Vector2(48, 48)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 428.0
+offset_top = -267.0
+offset_right = 476.0
+offset_bottom = -219.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+texture_normal = ExtResource("4_6jssq")
+stretch_mode = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=129159340]
+z_index = 5
+custom_minimum_size = Vector2(0, 24)
+offset_left = 7.0
+offset_right = 139.0
+offset_bottom = 32.0
+theme_override_constants/separation = 0
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer" unique_id=183125544]
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+texture = ExtResource("4_46yqn")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="HBoxContainer" unique_id=1820283285]
+custom_minimum_size = Vector2(96, 32)
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 2
+text = "100 / 100"
+fit_content = true
+scroll_active = false
+vertical_alignment = 1
+
+[node name="spacing" type="Control" parent="HBoxContainer" unique_id=102313936]
+custom_minimum_size = Vector2(16, 0)
+layout_mode = 2
+
+[node name="Control" type="Control" parent="HBoxContainer" unique_id=1865584594]
+custom_minimum_size = Vector2(24, 32)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer/Control" unique_id=1742772442]
+position = Vector2(6, 16)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_vi3dy")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="HBoxContainer" unique_id=970445447]
+custom_minimum_size = Vector2(48, 32)
+layout_mode = 2
+mouse_filter = 1
+theme_override_colors/default_color = Color(1, 0.49019608, 0, 1)
+theme_override_constants/outline_size = 2
+text = "156"
+fit_content = true
+scroll_active = false
+vertical_alignment = 1
+
+[node name="Itemslot" type="TextureRect" parent="HBoxContainer" unique_id=1231128474]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+texture = ExtResource("6_uflt7")
+stretch_mode = 5
+
+[node name="Slots" type="HBoxContainer" parent="HBoxContainer/Itemslot" unique_id=57774408]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 82.0
+offset_bottom = 28.0
+theme_override_constants/separation = 3
+
+[node name="Slot1" type="TextureButton" parent="HBoxContainer/Itemslot/Slots" unique_id=1709574086]
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+focus_mode = 0
+texture_normal = ExtResource("7_6jssq")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Slot2" type="TextureButton" parent="HBoxContainer/Itemslot/Slots" unique_id=1923783510]
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+focus_mode = 0
+texture_normal = ExtResource("7_6jssq")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Slot3" type="TextureButton" parent="HBoxContainer/Itemslot/Slots" unique_id=710784453]
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+focus_mode = 0
+texture_normal = ExtResource("7_6jssq")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="EquipmentContainer" type="HBoxContainer" parent="." unique_id=41552581]
+z_index = 5
+offset_left = 6.0
+offset_top = 37.0
+offset_right = 955.0
+offset_bottom = 77.0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="TextureButton2" to="." method="_on_texture_button_2_pressed"]
+[connection signal="mouse_entered" from="HBoxContainer/Itemslot/Slots/Slot1" to="." method="_on_slot_1_mouse_entered"]
+[connection signal="mouse_exited" from="HBoxContainer/Itemslot/Slots/Slot1" to="." method="_on_slot_1_mouse_exited"]
+[connection signal="pressed" from="HBoxContainer/Itemslot/Slots/Slot1" to="." method="_on_slot_1_pressed"]
+[connection signal="mouse_entered" from="HBoxContainer/Itemslot/Slots/Slot2" to="." method="_on_slot_2_mouse_entered"]
+[connection signal="mouse_exited" from="HBoxContainer/Itemslot/Slots/Slot2" to="." method="_on_slot_2_mouse_exited"]
+[connection signal="pressed" from="HBoxContainer/Itemslot/Slots/Slot2" to="." method="_on_slot_2_pressed"]
+[connection signal="mouse_entered" from="HBoxContainer/Itemslot/Slots/Slot3" to="." method="_on_slot_3_mouse_entered"]
+[connection signal="mouse_exited" from="HBoxContainer/Itemslot/Slots/Slot3" to="." method="_on_slot_3_mouse_exited"]
+[connection signal="pressed" from="HBoxContainer/Itemslot/Slots/Slot3" to="." method="_on_slot_3_pressed"]

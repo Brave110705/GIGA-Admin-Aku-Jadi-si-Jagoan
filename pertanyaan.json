@@ -1,14 +1,1222 @@
-[
-  {
-	"question": "Apa ibukota Jawa Timur?",
-	"answer": "Surabaya",
-	"category": "Geografi",
-	"difficulty": 1
-  },
-  {
-	"question": "Tahun berapa Indonesia merdeka?",
-	"answer": "1945",
-	"category": "Sejarah",
-	"difficulty": 1
-  }
+  [
+	{
+	  "question": "Apa nama alat untuk melukis dengan cat air?",
+	  "answer": "Kuas",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Seni membuat bentuk dari tanah liat disebut?",
+	  "answer": "Gerabah",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama campuran warna merah dan kuning?",
+	  "answer": "Orange",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Alat musik tradisional Jawa yang dimainkan dengan dipukul adalah?",
+	  "answer": "Gamelan",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Karya seni yang memiliki panjang dan lebar disebut seni?",
+	  "answer": "Dua dimensi",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni menghias kain khas Indonesia?",
+	  "answer": "Batik",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Seni melipat kertas disebut?",
+	  "answer": "Origami",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Alat untuk menggambar lingkaran disebut?",
+	  "answer": "Jangka",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama warna hasil campuran biru dan kuning?",
+	  "answer": "Hijau",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Karya seni yang dapat dilihat dan disentuh disebut?",
+	  "answer": "Seni rupa",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Teknik menempel potongan kertas menjadi gambar disebut?",
+	  "answer": "Kolase",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni membuat patung?",
+	  "answer": "Pahat",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Karya seni yang memiliki volume disebut seni?",
+	  "answer": "Tiga dimensi",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama teknik melukis dengan titik-titik kecil?",
+	  "answer": "Pointilis",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Orang yang membuat patung disebut?",
+	  "answer": "Sculptor",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni cetak menggunakan layar kain?",
+	  "answer": "Sablon",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menampilkan emosi berlebihan?",
+	  "answer": "Ekspresionisme",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni menyusun foto atau gambar menjadi satu karya?",
+	  "answer": "Montase",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Siapa pelukis lukisan Mona Lisa?",
+	  "answer": "Leonardo da Vinci",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menampilkan objek seperti mimpi?",
+	  "answer": "Surealisme",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menonjolkan cahaya dan warna?",
+	  "answer": "Impresionisme",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni membuat gambar pada dinding?",
+	  "answer": "Mural",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama teknik melukis menggunakan cat minyak?",
+	  "answer": "Aquarel",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Siapa pelukis terkenal dari Spanyol yang membuat Guernica?",
+	  "answer": "Picasso",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menggunakan bentuk geometris?",
+	  "answer": "Kubisme",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama Jobdesk Joko Widodo sebelum menjabat Presiden?",
+	  "answer": "Carpenter",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama museum seni iconic di Paris?",
+	  "answer": "Louvre",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Siapa pelukis lukisan The Starry Night?",
+	  "answer": "Vincent van Gogh",
+	  "category": "Art",
+	  "difficulty": 5,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Teknik menggambar tanpa mengangkat pensil disebut?",
+	  "answer": "Arsir kontinu",
+	  "category": "Art",
+	  "difficulty": 5,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama teknik melukis pada tembok basah khas Renaissance?",
+	  "answer": "Fresco",
+	  "category": "Art",
+	  "difficulty": 5,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+		"question": "Makanan khas Indonesia yang terbuat dari nasi bekas disebut?",
+		"answer": "Nasi goreng",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan Jepang berbahan nasi dan ikan mentah?",
+		"answer": "Sushi",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Makanan berbentuk bundar asal Italia yang mendunia disebut?",
+		"answer": "Pizza",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Minuman panas yang diolah dari biji kopi disebut?",
+		"answer": "Kopi",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa bahan utama tempe?",
+		"answer": "Kedelai",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Makanan khas Padang yang terkenal adalah?",
+		"answer": "Rendang",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama mie kuah khas Jepang?",
+		"answer": "Ramen",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Makanan cepat saji berbahan roti berisi daging disebut?",
+		"answer": "Burger",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa rasa utama dari lemon?",
+		"answer": "Asam",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan fermentasi Korea berbahan kubis?",
+		"answer": "Kimchi",
+		"category": "Food",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Apa nama sup khas Jepang dengan pasta kedelai?",
+		"answer": "Miso",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa bahan utama pembuatan tahu?",
+		"answer": "Kedelai",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama teknik memasak dengan minyak banyak?",
+		"answer": "Menggoreng",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan Korea yang terkenal pedas dan difermentasi?",
+		"answer": "Kimchi",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan khas Italia yang terbuat dari adonan tepung dan air?",
+		"answer": "Pasta",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan Italia berbentuk lembaran pasta berlapis?",
+		"answer": "Lasagna",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama roti pipih khas India?",
+		"answer": "Naan",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama teknik memasak dengan uap panas?",
+		"answer": "Mengukus",
+		"category": "Food",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Apa nama keju khas Italia yang sering digunakan pada pizza?",
+		"answer": "Mozzarella",
+		"category": "Food",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan kesukaan doraemon?",
+		"answer": "Dorayaki",
+		"category": "Food",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan khas Jepang yang terbuat dari nasi dan rumput laut?",
+		"answer": "Onigiri",
+		"category": "Food",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama hidangan nasi khas Spanyol?",
+		"answer": "Paella",
+		"category": "Food",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama mie khas Thailand yang terkenal?",
+		"answer": "Pad Thai",
+		"category": "Food",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Apa nama teknik memasak daging dengan api kecil dalam waktu lama?",
+		"answer": "Braising",
+		"category": "Food",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan penutup khas Italia yang terbuat dari keju mascarpone?",
+		"answer": "Tiramisu",
+		"category": "Food",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama hidangan daging mentah khas Jepang?",
+		"answer": "Sashimi",
+		"category": "Food",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama teknik memotong sayur sangat tipis khas kuliner Prancis?",
+		"answer": "Julienne",
+		"category": "Food",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Makanan khas Bandung yang terbuat dari singkong adalah?",
+		"answer": "Peuyeum",
+		"category": "Food",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama hidangan Prancis yang terbuat dari hati angsa?",
+		"answer": "Foie gras",
+		"category": "Food",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa chef terkenal dari Inggris yang dikenal dengan program televisi 'Hell's Kitchen'?",
+		"answer": "Gordon Ramsay",
+		"category": "Food",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama bunga nasional Jepang?",
+		"answer": "Sakura",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama pakaian tradisional Jepang?",
+		"answer": "Kimono",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama makanan Jepang berbahan nasi dan ikan mentah?",
+		"answer": "Sushi",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Ibukota Jepang adalah?",
+		"answer": "Tokyo",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama seni melipat kertas dari Jepang?",
+		"answer": "Origami",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama pedang tradisional samurai?",
+		"answer": "Katana",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama komik khas Jepang?",
+		"answer": "Manga",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama animasi khas Jepang?",
+		"answer": "Anime",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama gunung tertinggi di Jepang?",
+		"answer": "Gunung Fuji",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Bahasa resmi Jepang adalah?",
+		"answer": "Nihongo",
+		"category": "Jepang",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Siapakah Kapten Kita?",
+		"answer": "Tsubasa",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama huruf Jepang yang digunakan untuk kata asing?",
+		"answer": "Katakana",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama huruf Jepang dasar selain Katakana?",
+		"answer": "Hiragana",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama seni bela diri Jepang yang menggunakan lemparan?",
+		"answer": "Judo",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama penginapan tradisional Jepang?",
+		"answer": "Ryokan",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama festival melihat bunga sakura?",
+		"answer": "Hanami",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama kotak makan khas Jepang?",
+		"answer": "Bento",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama mie kuah khas Jepang?",
+		"answer": "Ramen",
+		"category": "Jepang",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Apa nama bahasa pinjaman yang digunakan di Jepang?",
+		"answer": "Kanji",
+		"category": "Jepang",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama olahraga tradisional Jepang yang dilakukan pegulat besar?",
+		"answer": "Sumo",
+		"category": "Jepang",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama periode modernisasi Jepang pada abad ke-19?",
+		"answer": "Meiji",
+		"category": "Jepang",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama dewa atau roh dalam kepercayaan Shinto?",
+		"answer": "Kami",
+		"category": "Jepang",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama tempat pemandian air panas Jepang?",
+		"answer": "Onsen",
+		"category": "Jepang",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Apa nama kode etik samurai?",
+		"answer": "Bushido",
+		"category": "Jepang",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama teater tradisional Jepang yang memakai topeng?",
+		"answer": "Noh",
+		"category": "Jepang",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama seni merangkai bunga Jepang?",
+		"answer": "Ikebana",
+		"category": "Jepang",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama distrik terkenal untuk budaya anime di Tokyo?",
+		"answer": "Akihabara",
+		"category": "Jepang",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Apa nama kitab sejarah tertua Jepang?",
+		"answer": "Kojiki",
+		"category": "Jepang",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama puisi pendek tradisional Jepang dengan pola 5-7-5?",
+		"answer": "Haiku",
+		"category": "Jepang",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama zaman pemerintahan shogun Tokugawa?",
+		"answer": "Edo",
+		"category": "Jepang",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama series film yang merupakan adaptasi dari novel J.K. Rowling?",
+		"answer": "Harry Potter",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Film karya Steven Spielberg tentang dinosaurus bernama ?",
+		"answer": "Jurassic Park",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa pahlawan dengan tameng bermotifkan bintang?",
+		"answer": "Captain America",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Film Pixar mengenai ikan badut yang mencari anaknya bernama?",
+		"answer": "Nemo",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama pemeran utama dalam film The Lion King?",
+		"answer": "Simba",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa superhero yang bisa memanjat dinding?",
+		"answer": "Spider Man",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Film bertema mobil balap dari Pixar adalah?",
+		"answer": "Cars",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama boneka cowboy dalam film Toy Story?",
+		"answer": "Woody",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama sekolah sihir dalam Harry Potter?",
+		"answer": "Hogwarts",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapakah superhero berjubah hitam dari Gotham City?",
+		"answer": "Batman",
+		"category": "Movie",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Siapa sutradara film Titanic?",
+		"answer": "James Cameron",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Film The Matrix dibintangi oleh siapa?",
+		"answer": "Keanu Reeves",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama karakter utama dalam film The Lord of the Rings?",
+		"answer": "Frodo",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Film Avengers merupakan bagian dari universe apa?",
+		"answer": "Marvel",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa pemeran utama dalam film The Hunger Games?",
+		"answer": "Jennifer Lawrence",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa tokoh utama dalam film John Wick?",
+		"answer": "John Wick",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama robot kuning dalam film Transformers?",
+		"answer": "Bumblebee",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Film Interstellar bertema tentang apa?",
+		"answer": "Luar angkasa",
+		"category": "Movie",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Film Avatar bertempat di planet apa?",
+		"answer": "Pandora",
+		"category": "Movie",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Film Parasite berasal dari negara mana?",
+		"answer": "Korea Selatan",
+		"category": "Movie",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama cincin dalam film The Lord of the Rings?",
+		"answer": "One Ring",
+		"category": "Movie",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa sutradara trilogi The Dark Knight?",
+		"answer": "Christopher Nolan",
+		"category": "Movie",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama hotel dalam film The Shining?",
+		"answer": "Overlook",
+		"category": "Movie",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Siapa pemeran utama dalam film The Revenant?",
+		"answer": "Leonardo Dicaprio",
+		"category": "Movie",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa karakter utama dalam film Joker?",
+		"answer": "Arthur Fleck",
+		"category": "Movie",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama studio yang membuat film Spirited Away?",
+		"answer": "Studio Ghibli",
+		"category": "Movie",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa sutradara film Inception?",
+		"answer": "Christopher Nolan",
+		"category": "Movie",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Film pertama yang memenangkan Oscar Best Picture sekaligus menggunakan CGI besar-besaran adalah?",
+		"answer": "Titanic",
+		"category": "Movie",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama sutradara film Pulp Fiction?",
+		"answer": "Quentin Tarantino",
+		"category": "Movie",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama AI dalam film 2001: A Space Odyssey?",
+		"answer": "HAL 9000",
+		"category": "Movie",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Berapa jumlah pemain dalam satu tim sepak bola di lapangan?",
+		"answer": "Sebelas",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Sports yang menggunakan raket dan kok disebut?",
+		"answer": "Badminton",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Tujuan ketika bermain basket adalah memasukkan bola ke dalam?",
+		"answer": "Ring",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Sports renang dilakukan di?",
+		"answer": "Air",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Berapa jumlah pemain dalam satu tim voli?",
+		"answer": "6",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Alat untuk memukul bola dalam baseball disebut?",
+		"answer": "Bat",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Sports lari jarak pendek disebut?",
+		"answer": "Sprint",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama Sports bela diri dari Jepang yang menggunakan tendangan dan pukulan?",
+		"answer": "Karate",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Negara asal Sports sepak bola adalah?",
+		"answer": "Inggris",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama ajang Sports internasional yang diadakan setiap 2 tahun?",
+		"answer": "Olympic",
+		"category": "Sports",
+		"difficulty": 1,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Berapa poin untuk satu tembakan bebas dalam basket?",
+		"answer": "1",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama teknik memukul bola pertama dalam voli?",
+		"answer": "Servis",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Siapa pemain sepak bola paling terkenal di dunia?",
+		"answer": "Lionel Messi",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Sports tenis dimainkan pada?",
+		"answer": "Tennis Court",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Berapa lama waktu sebuah pertandingan sepak bola? ( Dalam menit )",
+		"answer": "90",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama pukulan keras dalam voli?",
+		"answer": "Smash",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama garis akhir pada lomba lari?",
+		"answer": "Finish Line",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama Sports bela diri dari Korea?",
+		"answer": "Taekwondo",
+		"category": "Sports",
+		"difficulty": 2,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Apa nama organisasi sepak bola dunia?",
+		"answer": "FIFA",
+		"category": "Sports",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Berapa jumlah hole dalam permainan golf pada umumnya?",
+		"answer": "Delapan belas",
+		"category": "Sports",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama teknik menggiring bola dalam basket?",
+		"answer": "Dribble",
+		"category": "Sports",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Negara asal Sports sumo adalah?",
+		"answer": "Jepang",
+		"category": "Sports",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama turnamen tenis paling terkenal di Inggris?",
+		"answer": "Wimbledon",
+		"category": "Sports",
+		"difficulty": 3,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Siapa perenang peraih medali emas Olimpiade terbanyak?",
+		"answer": "Michael Phelps",
+		"category": "Sports",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama istilah tiga gol dalam satu pertandingan sepak bola yang dilakukan oleh satu pemain?",
+		"answer": "Hat trick",
+		"category": "Sports",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Dimana markas organisasi basket dunia?",
+		"answer": "Switzerland",
+		"category": "Sports",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apakah nama manga yang menjadi inspirasi bagi banyak pemain sepak bola?",
+		"answer": "Captain Tsubasa",
+		"category": "Sports",
+		"difficulty": 4,
+		"answered": false,
+		"hint_state": []
+	},
+
+	{
+		"question": "Siapa pemegang rekor dunia sebagai manusia tercepat?",
+		"answer": "Usain Bolt",
+		"category": "Sports",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama stadion kandang FC Barcelona?",
+		"answer": "Camp Nou",
+		"category": "Sports",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	},
+	{
+		"question": "Apa nama kompetisi sepak bola antar negara di Eropa?",
+		"answer": "Champions League",
+		"category": "Sports",
+		"difficulty": 5,
+		"answered": false,
+		"hint_state": []
+	}
 ]

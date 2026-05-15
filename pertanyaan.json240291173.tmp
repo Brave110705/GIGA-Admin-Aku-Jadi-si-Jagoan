@@ -1,0 +1,246 @@
+{
+	{
+	  "question": "Apa nama alat untuk melukis dengan cat air?",
+	  "answer": "Kuas",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Seni membuat bentuk dari tanah liat disebut?",
+	  "answer": "Gerabah",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama campuran warna merah dan kuning?",
+	  "answer": "Orange",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Alat musik tradisional Jawa yang dimainkan dengan dipukul adalah?",
+	  "answer": "Gamelan",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Karya seni yang memiliki panjang dan lebar disebut seni?",
+	  "answer": "Dua dimensi",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni menghias kain khas Indonesia?",
+	  "answer": "Batik",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Seni melipat kertas disebut?",
+	  "answer": "Origami",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Alat untuk menggambar lingkaran disebut?",
+	  "answer": "Jangka",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama warna hasil campuran biru dan kuning?",
+	  "answer": "Hijau",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Karya seni yang dapat dilihat dan disentuh disebut?",
+	  "answer": "Seni rupa",
+	  "category": "Art",
+	  "difficulty": 1,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Teknik menempel potongan kertas menjadi gambar disebut?",
+	  "answer": "Kolase",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni membuat patung?",
+	  "answer": "Pahat",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Karya seni yang memiliki volume disebut seni?",
+	  "answer": "Tiga dimensi",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama teknik melukis dengan titik-titik kecil?",
+	  "answer": "Pointilis",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Orang yang membuat patung disebut?",
+	  "answer": "Sculptor",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni cetak menggunakan layar kain?",
+	  "answer": "Sablon",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menampilkan emosi berlebihan?",
+	  "answer": "Ekspresionisme",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni menyusun foto atau gambar menjadi satu karya?",
+	  "answer": "Montase",
+	  "category": "Art",
+	  "difficulty": 2,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Siapa pelukis lukisan Mona Lisa?",
+	  "answer": "Leonardo da Vinci",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menampilkan objek seperti mimpi?",
+	  "answer": "Surealisme",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menonjolkan cahaya dan warna?",
+	  "answer": "Impresionisme",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama seni membuat gambar pada dinding?",
+	  "answer": "Mural",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama teknik melukis menggunakan cat minyak?",
+	  "answer": "Aquarel",
+	  "category": "Art",
+	  "difficulty": 3,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Siapa pelukis terkenal dari Spanyol yang membuat Guernica?",
+	  "answer": "Picasso",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama aliran seni yang menggunakan bentuk geometris?",
+	  "answer": "Kubisme",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama Jobdesk Joko Widodo sebelum menjabat Presiden?",
+	  "answer": "Carpenter",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama museum seni iconic di Paris?",
+	  "answer": "Louvre",
+	  "category": "Art",
+	  "difficulty": 4,
+	  "answered": false,
+	  "hint_state": []
+	},
+
+	{
+	  "question": "Siapa pelukis lukisan The Starry Night?",
+	  "answer": "Vincent van Gogh",
+	  "category": "Art",
+	  "difficulty": 5,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Teknik menggambar tanpa mengangkat pensil disebut?",
+	  "answer": "Arsir kontinu",
+	  "category": "Art",
+	  "difficulty": 5,
+	  "answered": false,
+	  "hint_state": []
+	},
+	{
+	  "question": "Apa nama teknik melukis pada tembok basah khas Renaissance?",
+	  "answer": "Fresco",
+	  "category": "Art",
+	  "difficulty": 5,
+	  "answered": false,
+	  "hint_state": []
+	}
+}

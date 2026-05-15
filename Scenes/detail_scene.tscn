@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://bfgk18sqxeh2t"]
+
+[ext_resource type="Texture2D" uid="uid://p4vewge7lpxk" path="res://Assets/detail.png" id="1_davev"]
+[ext_resource type="Script" uid="uid://dia6bb2dvgg5c" path="res://Scenes/detail_scene.gd" id="2_4654w"]
+[ext_resource type="FontFile" uid="uid://qp74w8bplpph" path="res://Assets/ka1.ttf" id="3_etd3e"]
+
+[node name="NinePatchRect" type="NinePatchRect" unique_id=458448751]
+z_index = 10
+offset_right = 129.0
+offset_bottom = 39.0
+texture = ExtResource("1_davev")
+region_rect = Rect2(0, 0, 128, 128)
+patch_margin_left = 9
+patch_margin_top = 9
+patch_margin_right = 9
+patch_margin_bottom = 9
+script = ExtResource("2_4654w")
+
+[node name="Title" type="RichTextLabel" parent="." unique_id=1699192056]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 3.0
+offset_right = 120.0
+offset_bottom = 14.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_etd3e")
+theme_override_font_sizes/normal_font_size = 8
+text = "Encouraging HEADBAND"
+fit_content = true
+horizontal_alignment = 1
+
+[node name="Desc" type="RichTextLabel" parent="." unique_id=1525604950]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 25.0
+offset_right = 123.0
+offset_bottom = 408.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_etd3e")
+theme_override_font_sizes/normal_font_size = 8
+text = "Reveal 3 random letters
+blablabla"

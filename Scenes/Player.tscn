@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://c7mpudc3kgunq"]
+
+[ext_resource type="Script" uid="uid://cmxrp4vloieq6" path="res://Scenes/player.gd" id="1_dewec"]
+[ext_resource type="Texture2D" uid="uid://dpxhu0c1g8ys6" path="res://Assets/character_sprites/1_flip.PNG" id="2_dewec"]
+[ext_resource type="Texture2D" uid="uid://h7laagbo3w3i" path="res://Assets/enemy_health_bar_outline.png" id="3_5ixxa"]
+[ext_resource type="Texture2D" uid="uid://bvjg13xnfgp0e" path="res://Assets/enemy_health_bar_inside.png" id="4_nn08x"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kyqiw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ixxa"]
+atlas = ExtResource("2_dewec")
+region = Rect2(1910, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nn08x"]
+atlas = ExtResource("2_dewec")
+region = Rect2(955, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52ee3"]
+atlas = ExtResource("2_dewec")
+region = Rect2(0, 0, 955, 1380)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gntrk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ixxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nn08x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52ee3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Control" unique_id=1473308989]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_dewec")
+
+[node name="Panel" type="Panel" parent="." unique_id=469548381]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 540.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kyqiw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Panel" unique_id=577917902]
+position = Vector2(258, 255)
+scale = Vector2(0.125, 0.125)
+sprite_frames = SubResource("SpriteFrames_gntrk")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=663095561]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 192.0
+offset_top = 196.0
+offset_right = 256.0
+offset_bottom = 236.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Player"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HPbar" type="TextureProgressBar" parent="." unique_id=491769897]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 177.0
+offset_top = 317.0
+offset_right = 305.0
+offset_bottom = 331.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+value = 100.0
+texture_over = ExtResource("3_5ixxa")
+texture_progress = ExtResource("4_nn08x")
+metadata/_edit_use_anchors_ = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="HPbar" unique_id=721175564]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -20.0
+offset_right = 182.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 8
+text = "100/100"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1

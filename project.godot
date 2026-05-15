@@ -16,8 +16,12 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+Equipment="*uid://degp838o33e4v"
 Global="*uid://tmfpltu0cqaj"
 Question_Manager="*uid://b4y4yhpvnbtr6"
+Stats="*uid://318j7gcy0yko"
+MapState="*uid://w44m47lgagnf"
+Items="*uid://skpyv3hvq71j"
 
 [display]
 

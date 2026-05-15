@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://cbyp512slm4sk"]
+
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_2oe1m"]
+[ext_resource type="Script" uid="uid://dxwvx6bxvi0xk" path="res://Scenes/chest_loot_scene.gd" id="2_8tm7k"]
+
+[node name="Control" type="Sprite2D" unique_id=374869360]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_2oe1m")
+script = ExtResource("2_8tm7k")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=749453983]
+offset_left = -236.0
+offset_top = 68.0
+offset_right = -1.0
+offset_bottom = 93.0
+scale = Vector2(2, 2)
+text = "equip_name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1081751155]
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+offset_bottom = 64.0
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

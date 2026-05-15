@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="EnemyList" format=3 uid="uid://dkp40s2o2sn73"]
+
+[ext_resource type="PackedScene" uid="uid://brvxh0hxltb87" path="res://Scenes/enemies/enemy_Artist.tscn" id="1_nxnno"]
+[ext_resource type="Script" uid="uid://cnx5openp42jv" path="res://Scripts/EnemyList.gd" id="1_qofdw"]
+[ext_resource type="PackedScene" uid="uid://vf6x1s7i241u" path="res://Scenes/enemies/enemy_Chef_Puer.tscn" id="2_ed8uq"]
+[ext_resource type="PackedScene" uid="uid://cjajmuqetnf4w" path="res://Scenes/enemies/enemy_Geisha.tscn" id="3_yb1jt"]
+[ext_resource type="PackedScene" uid="uid://drk6w7lpv1di1" path="res://Scenes/enemies/enemy_Indie_Jones.tscn" id="4_1gnut"]
+
+[resource]
+script = ExtResource("1_qofdw")
+enemies = Array[PackedScene]([ExtResource("1_nxnno"), ExtResource("2_ed8uq"), ExtResource("3_yb1jt"), ExtResource("4_1gnut")])
+metadata/_custom_type_script = "uid://cnx5openp42jv"

@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://b2eyqei8w5f7r"]
+
+[ext_resource type="Script" uid="uid://b7ol3gcy52b75" path="res://Scenes/shop_item.gd" id="1_wmysf"]
+
+[node name="TextureRect" type="TextureButton" unique_id=1661237331]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_wmysf")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1832284343]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 30.5
+offset_right = 52.0
+offset_bottom = 60.5
+scale = Vector2(0.5, 0.5)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 16
+text = "200G"
+horizontal_alignment = 1
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

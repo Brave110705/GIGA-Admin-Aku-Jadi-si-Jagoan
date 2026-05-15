@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://slqlkdq445w8"]
+
+[ext_resource type="Script" uid="uid://by4cecum4vbit" path="res://Scenes/map_button.gd" id="1_xjfud"]
+
+[node name="Control" type="TextureRect" unique_id=1024104644]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = 7.0
+offset_right = -916.0
+offset_bottom = -501.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xjfud")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=325342879]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Map"
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1502402882]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

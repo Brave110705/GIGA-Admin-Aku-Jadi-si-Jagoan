@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://nocojwomnfjk"]
+
+[ext_resource type="Script" uid="uid://deo8ffeurd87h" path="res://Scenes/gold_loot.gd" id="1_8btu7"]
+[ext_resource type="Texture2D" uid="uid://e36h8ahou5j8" path="res://Assets/loot_border.png" id="2_8btu7"]
+[ext_resource type="Texture2D" uid="uid://55m1n3drtlik" path="res://Assets/Gold_icon.png" id="2_aw3ju"]
+
+[node name="Control" type="Control" unique_id=574240579]
+custom_minimum_size = Vector2(168, 40)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 168.0
+offset_bottom = 40.0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_8btu7")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1330570122]
+layout_mode = 0
+offset_left = -3.0
+offset_top = 6.0
+offset_right = 159.0
+offset_bottom = 38.0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+alignment = 1
+
+[node name="Control" type="Control" parent="HBoxContainer" unique_id=1691742176]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer/Control" unique_id=70068023]
+position = Vector2(16, 16)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_aw3ju")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="HBoxContainer" unique_id=1908828197]
+custom_minimum_size = Vector2(108, 0)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/normal_font_size = 12
+bbcode_enabled = true
+text = "equip_test"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2116490416]
+z_index = -1
+layout_mode = 0
+offset_right = 164.0
+offset_bottom = 44.0
+texture = ExtResource("2_8btu7")
+stretch_mode = 2
+
+[node name="Button" type="TextureButton" parent="." unique_id=2015967837]
+layout_mode = 0
+offset_right = 164.0
+offset_bottom = 45.0
+
+[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_button_mouse_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

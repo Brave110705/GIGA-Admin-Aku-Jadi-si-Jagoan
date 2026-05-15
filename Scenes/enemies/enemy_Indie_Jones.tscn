@@ -1,0 +1,168 @@
+[gd_scene format=3 uid="uid://drk6w7lpv1di1"]
+
+[ext_resource type="Script" uid="uid://b1buevahya1ot" path="res://Scenes/enemies/enemy_indie_jones.gd" id="1_5krpx"]
+[ext_resource type="Texture2D" uid="uid://h7laagbo3w3i" path="res://Assets/enemy_health_bar_outline.png" id="3_p6y1o"]
+[ext_resource type="Texture2D" uid="uid://bvjg13xnfgp0e" path="res://Assets/enemy_health_bar_inside.png" id="4_3vkqw"]
+[ext_resource type="Texture2D" uid="uid://88ivoj52w6g" path="res://Assets/timer_under.png" id="5_hfpom"]
+[ext_resource type="Texture2D" uid="uid://bncocym7qjsyv" path="res://Assets/timer_progress.png" id="6_an3yp"]
+[ext_resource type="Texture2D" uid="uid://dsnikop8gbckv" path="res://Assets/character_sprites/3.PNG" id="7_5krpx"]
+[ext_resource type="Texture2D" uid="uid://cwuyrsjynpcg7" path="res://Assets/item_placeholder.png" id="7_11pec"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2tulu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6fvsl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6y1o"]
+atlas = ExtResource("7_5krpx")
+region = Rect2(0, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vkqw"]
+atlas = ExtResource("7_5krpx")
+region = Rect2(1910, 0, 955, 1380)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hfpom"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6y1o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vkqw")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="EnemyDummyTest" type="Control" unique_id=150289829]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5krpx")
+base_max_hp = 30.0
+spike_hp = 2.0
+base_damage = 4
+spike_damage = 1
+attack_cooldown_easy = 8.0
+attack_cooldown_normal = 6.0
+attack_cooldown_hard = 4.0
+effect_title = "Movie"
+desc = "everytime player uses an item, delays attack For 1 turn and Permanently buff this unit's attack by +2 until the end of battle
+"
+enemy_type = 1
+enemy_question_type = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=809736631]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 540.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_2tulu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Panel" unique_id=723894081]
+position = Vector2(720, 280)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_6fvsl")
+
+[node name="HPbar" type="TextureProgressBar" parent="Panel/AnimatedSprite2D" unique_id=1100326943]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = 74.0
+offset_bottom = 88.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+value = 100.0
+texture_over = ExtResource("3_p6y1o")
+texture_progress = ExtResource("4_3vkqw")
+metadata/_edit_use_anchors_ = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/AnimatedSprite2D/HPbar" unique_id=757665471]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -20.0
+offset_right = 182.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_font_sizes/normal_font_size = 8
+text = "100/100"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer_progress" type="TextureProgressBar" parent="Panel/AnimatedSprite2D" unique_id=594292705]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = -320.0
+offset_right = 128.0
+offset_bottom = -64.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.25, 0.25)
+pivot_offset_ratio = Vector2(0.5, 0.5)
+max_value = 1000.0
+fill_mode = 5
+texture_under = ExtResource("5_hfpom")
+texture_progress = ExtResource("6_an3yp")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect" type="TextureRect" parent="Panel/AnimatedSprite2D" unique_id=1033639166]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = 114.0
+offset_right = 20.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_11pec")
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="." unique_id=5506921]
+
+[node name="Control" type="Control" parent="." unique_id=1764191458]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1811101832]
+position = Vector2(703, 256)
+scale = Vector2(0.125, 0.125)
+sprite_frames = SubResource("SpriteFrames_hfpom")
+
+[connection signal="mouse_entered" from="Panel/AnimatedSprite2D/TextureRect" to="." method="_on_texture_rect_mouse_entered"]
+[connection signal="mouse_exited" from="Panel/AnimatedSprite2D/TextureRect" to="." method="_on_texture_rect_mouse_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

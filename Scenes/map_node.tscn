@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://bmsgl02qu5wc7"]
+
+[ext_resource type="Script" uid="uid://d1t3bb45oy21t" path="res://Scenes/map_node.gd" id="1_wp7i3"]
+[ext_resource type="Texture2D" uid="uid://qgltcd2cjn5g" path="res://Assets/icon_combat.png" id="2_g7uvm"]
+
+[node name="Control" type="Control" unique_id=358330299]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 32.0
+offset_bottom = 32.0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+script = ExtResource("1_wp7i3")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=764237071]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -52.0
+offset_top = -53.0
+offset_right = -12.0
+offset_bottom = -13.0
+grow_horizontal = 0
+grow_vertical = 0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+mouse_filter = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 8
+text = "Enemy"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="TextureButton" parent="RichTextLabel" unique_id=9776785]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -23.0
+offset_top = -21.0
+offset_right = 23.0
+offset_bottom = 23.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1893004516]
+layout_mode = 0
+offset_left = -21.0
+offset_top = -21.0
+offset_right = 21.0
+offset_bottom = 21.0
+mouse_filter = 2
+texture = ExtResource("2_g7uvm")
+expand_mode = 1
+stretch_mode = 5
+
+[connection signal="mouse_entered" from="RichTextLabel/Button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_exited" from="RichTextLabel/Button" to="." method="_on_button_mouse_exited"]
+[connection signal="pressed" from="RichTextLabel/Button" to="." method="_on_button_pressed"]

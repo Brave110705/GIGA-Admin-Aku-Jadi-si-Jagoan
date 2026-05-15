@@ -1,0 +1,166 @@
+[gd_scene format=3 uid="uid://vf6x1s7i241u"]
+
+[ext_resource type="Script" uid="uid://tv3r05r6pncp" path="res://Scenes/enemies/enemy_chef_puer.gd" id="1_flm51"]
+[ext_resource type="Texture2D" uid="uid://h7laagbo3w3i" path="res://Assets/enemy_health_bar_outline.png" id="3_dvhs1"]
+[ext_resource type="Texture2D" uid="uid://bvjg13xnfgp0e" path="res://Assets/enemy_health_bar_inside.png" id="4_2h0fw"]
+[ext_resource type="Texture2D" uid="uid://88ivoj52w6g" path="res://Assets/timer_under.png" id="5_3g8i5"]
+[ext_resource type="Texture2D" uid="uid://bncocym7qjsyv" path="res://Assets/timer_progress.png" id="6_nfds0"]
+[ext_resource type="Texture2D" uid="uid://cwuyrsjynpcg7" path="res://Assets/item_placeholder.png" id="7_8std7"]
+[ext_resource type="Texture2D" uid="uid://brpj1hq8dlaiw" path="res://Assets/character_sprites/2.PNG" id="7_flm51"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2tulu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_21phd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dvhs1"]
+atlas = ExtResource("7_flm51")
+region = Rect2(0, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2h0fw"]
+atlas = ExtResource("7_flm51")
+region = Rect2(1910, 0, 955, 1380)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3g8i5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dvhs1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2h0fw")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="EnemyDummyTest" type="Control" unique_id=150289829]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_flm51")
+base_max_hp = 40.0
+spike_hp = 2.0
+base_damage = 5
+spike_damage = 1
+attack_cooldown_easy = 7.0
+attack_cooldown_normal = 6.0
+attack_cooldown_hard = 5.0
+effect_title = "Masterchef"
+desc = "Every Turn Heals Both Enemy and Player by 3 plus 2 x Spike, for each HP healed, Player loses gold equal to that amount. If gold is not sufficient, the player loses"
+enemy_type = 1
+
+[node name="Panel" type="Panel" parent="." unique_id=809736631]
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 540.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_2tulu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Panel" unique_id=1318206922]
+position = Vector2(720, 280)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_21phd")
+
+[node name="HPbar" type="TextureProgressBar" parent="Panel/AnimatedSprite2D" unique_id=1514688944]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = 74.0
+offset_bottom = 88.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+value = 100.0
+texture_over = ExtResource("3_dvhs1")
+texture_progress = ExtResource("4_2h0fw")
+metadata/_edit_use_anchors_ = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/AnimatedSprite2D/HPbar" unique_id=1200800746]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -182.0
+offset_top = -20.0
+offset_right = 182.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_font_sizes/normal_font_size = 8
+text = "100/100"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer_progress" type="TextureProgressBar" parent="Panel/AnimatedSprite2D" unique_id=1330251345]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = -340.0
+offset_right = 128.0
+offset_bottom = -84.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.25, 0.25)
+pivot_offset_ratio = Vector2(0.5, 0.5)
+max_value = 1000.0
+fill_mode = 5
+texture_under = ExtResource("5_3g8i5")
+texture_progress = ExtResource("6_nfds0")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect" type="TextureRect" parent="Panel/AnimatedSprite2D" unique_id=1821313312]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = 114.0
+offset_right = 20.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_8std7")
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="." unique_id=5506921]
+
+[node name="Control" type="Control" parent="." unique_id=1764191458]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2068082227]
+position = Vector2(703, 257)
+scale = Vector2(0.125, 0.125)
+sprite_frames = SubResource("SpriteFrames_3g8i5")
+
+[connection signal="mouse_entered" from="Panel/AnimatedSprite2D/TextureRect" to="." method="_on_texture_rect_mouse_entered"]
+[connection signal="mouse_exited" from="Panel/AnimatedSprite2D/TextureRect" to="." method="_on_texture_rect_mouse_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

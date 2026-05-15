@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cjxohg1r1dwkt"]
+
+[ext_resource type="Texture2D" uid="uid://sx6gm5wde2t0" path="res://Assets/placeholder_asset_equip.png" id="1_b2a5d"]
+[ext_resource type="Script" uid="uid://d4bbujitfs68r" path="res://Scenes/equipment_icon.gd" id="2_8dvln"]
+
+[node name="Control" type="TextureRect" unique_id=1241261811]
+custom_minimum_size = Vector2(32, 32)
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+texture = ExtResource("1_b2a5d")
+stretch_mode = 2
+script = ExtResource("2_8dvln")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
