@@ -1,6 +1,6 @@
 extends Node
 
-var base_damage:int = 10
+var base_damage:int = 5
 var player_damage: int:
 	get:
 		var dmg = base_damage
@@ -14,7 +14,7 @@ var dvd:bool = false
 
 var total_question_answered: int = 0
 
-var player_base_hp:int = 100
+var player_base_hp:int = 50
 var player_max_hp:int:
 	get:
 		var hp = player_base_hp
