@@ -72,6 +72,11 @@ func _on_timer_timeout() -> void:
 
 var delay: bool = false
 func attack():
+	$AnimatedSprite2D.frame = 1
+	await get_tree().create_timer(0.2).timeout
+	$AnimatedSprite2D.frame = 2
+	await get_tree().create_timer(0.2).timeout
+	$AnimatedSprite2D.frame = 0
 	if delay:
 		delay = false
 		if Global.combat_scene:

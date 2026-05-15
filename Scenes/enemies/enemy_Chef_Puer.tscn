@@ -12,11 +12,15 @@
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_21phd"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_dvhs1"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_flm51"]
 atlas = ExtResource("7_flm51")
 region = Rect2(0, 0, 955, 1380)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_2h0fw"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_21phd"]
+atlas = ExtResource("7_flm51")
+region = Rect2(955, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dvhs1"]
 atlas = ExtResource("7_flm51")
 region = Rect2(1910, 0, 955, 1380)
 
@@ -24,10 +28,13 @@ region = Rect2(1910, 0, 955, 1380)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_dvhs1")
+"texture": SubResource("AtlasTexture_flm51")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_2h0fw")
+"texture": SubResource("AtlasTexture_21phd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dvhs1")
 }],
 "loop": true,
 "name": &"default",

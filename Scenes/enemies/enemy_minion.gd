@@ -45,9 +45,9 @@ func _ready() -> void:
 	var random = randi_range(1,2)
 	match random:
 		1:
-			$AnimatedSprite2D.frame = 1
+			$AnimatedSprite2D.animation = "female"
 		2:
-			$AnimatedSprite2D.frame = 0
+			$AnimatedSprite2D.animation = "male"
 	max_hp = Global.spike*spike_hp + base_max_hp
 	hp = max_hp
 	damage = Global.spike*spike_damage + base_damage
@@ -76,6 +76,11 @@ func _on_timer_timeout() -> void:
 
 var delay: bool = false
 func attack():
+	$AnimatedSprite2D.frame = 1
+	await get_tree().create_timer(0.2).timeout
+	$AnimatedSprite2D.frame = 2
+	await get_tree().create_timer(0.2).timeout
+	$AnimatedSprite2D.frame = 0
 	if delay:
 		delay = false
 		if Global.combat_scene:

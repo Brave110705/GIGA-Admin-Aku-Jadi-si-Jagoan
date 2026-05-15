@@ -17,9 +17,29 @@
 atlas = ExtResource("7_gg0rk")
 region = Rect2(0, 0, 955, 1380)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_gg0rk"]
+atlas = ExtResource("7_gg0rk")
+region = Rect2(0, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5hhqg"]
+atlas = ExtResource("7_gg0rk")
+region = Rect2(955, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_evhrs"]
+atlas = ExtResource("7_gg0rk")
+region = Rect2(1910, 0, 955, 1380)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_o782j"]
 atlas = ExtResource("8_5hhqg")
 region = Rect2(0, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frvok"]
+atlas = ExtResource("8_5hhqg")
+region = Rect2(955, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yh6tn"]
+atlas = ExtResource("8_5hhqg")
+region = Rect2(1910, 0, 955, 1380)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_frvok"]
 animations = [{
@@ -28,10 +48,30 @@ animations = [{
 "texture": SubResource("AtlasTexture_pl1wp")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_o782j")
+"texture": SubResource("AtlasTexture_gg0rk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5hhqg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_evhrs")
 }],
 "loop": true,
-"name": &"default",
+"name": &"female",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o782j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frvok")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yh6tn")
+}],
+"loop": true,
+"name": &"male",
 "speed": 5.0
 }]
 
@@ -161,6 +201,7 @@ pivot_offset_ratio = Vector2(0.5, 0.5)
 position = Vector2(703, 255)
 scale = Vector2(0.125, 0.125)
 sprite_frames = SubResource("SpriteFrames_frvok")
+animation = &"male"
 
 [connection signal="mouse_entered" from="Panel/AnimatedSprite2D/TextureRect" to="." method="_on_texture_rect_mouse_entered"]
 [connection signal="mouse_exited" from="Panel/AnimatedSprite2D/TextureRect" to="." method="_on_texture_rect_mouse_exited"]

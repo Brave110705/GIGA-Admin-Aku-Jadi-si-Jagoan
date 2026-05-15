@@ -12,15 +12,29 @@
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_6fvsl"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_fsndg"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_6soa3"]
 atlas = ExtResource("7_6soa3")
 region = Rect2(0, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fsndg"]
+atlas = ExtResource("7_6soa3")
+region = Rect2(955, 0, 955, 1380)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5rue"]
+atlas = ExtResource("7_6soa3")
+region = Rect2(1910, 0, 955, 1380)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_hfpom"]
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_6soa3")
+}, {
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_fsndg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5rue")
 }],
 "loop": true,
 "name": &"default",
