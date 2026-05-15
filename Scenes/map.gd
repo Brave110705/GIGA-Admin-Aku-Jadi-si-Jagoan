@@ -1,6 +1,6 @@
 extends ScrollContainer
 
-var map_node = preload("res://Scenes/map_node.tscn")
+var map_node = load("res://Scenes/map_node.tscn")
 var nodes_by_row = []
 var boss_node = null
 

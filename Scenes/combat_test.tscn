@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://nqmkq2x1asvm" path="res://Scripts/combat_test.gd" id="1_x0xd4"]
 [ext_resource type="PackedScene" uid="uid://c7mpudc3kgunq" path="res://Scenes/Player.tscn" id="2_q16qq"]
-[ext_resource type="PackedScene" uid="uid://bxafgrcy37d61" path="res://Scenes/player_ui.tscn" id="3_opkgf"]
 [ext_resource type="FontFile" uid="uid://qp74w8bplpph" path="res://Assets/ka1.ttf" id="3_wdmp5"]
 [ext_resource type="Texture2D" uid="uid://co5ct8eruibbu" path="res://Assets/item_sprites/bg2.png" id="5_2vli1"]
 [ext_resource type="Texture2D" uid="uid://u8e5npagsy0j" path="res://Assets/item_sprites/bg1.png" id="6_iil0q"]
@@ -112,8 +111,6 @@ theme_override_fonts/normal_font = ExtResource("3_wdmp5")
 text = "ANSWER"
 horizontal_alignment = 1
 vertical_alignment = 1
-
-[node name="CanvasLayer" parent="." unique_id=1311867244 instance=ExtResource("3_opkgf")]
 
 [node name="Control" type="Control" parent="." unique_id=1462032475]
 layout_mode = 3

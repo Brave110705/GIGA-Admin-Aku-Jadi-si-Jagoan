@@ -50,6 +50,9 @@ func _ready() -> void:
 	add_child(enemy)
 	load_new_question()
 	
+	call_deferred("_load_player_ui")
+
+func _load_player_ui():
 	var player_ui = load("res://Scenes/player_ui.tscn").instantiate()
 	add_child(player_ui)
 
