@@ -204,7 +204,7 @@ func get_item_name(id):
 		Item_id.HEADBAND:
 			return "Encouraging Headband"
 		Item_id.MBG:
-			return "My Bento is Great"
+			return "M.B.G."
 		Item_id.G_TEA:
 			return "Green Tea"
 		Item_id.R_TEA:
