@@ -179,7 +179,7 @@ func _input(event):
 		elif event.keycode == KEY_ENTER:
 			check_answer()
 		
-		elif event.keycode == KEY_SPACE:
+		elif event.keycode == KEY_LEFT or event.keycode == KEY_RIGHT:
 			toggle_mode()
 			return
 		
